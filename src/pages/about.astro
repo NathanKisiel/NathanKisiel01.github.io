@@ -1,0 +1,45 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const pageTitle = "About";
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <section class="about">
+    <h1 class="about__title">About Me</h1>
+
+    <!-- Replace /img/about-placeholder.png with your real image path -->
+    <div class="about__image-wrap">
+      <img
+        class="about__image"
+        src="/img/about pic.png"
+        alt="Abstract mountains illustration"
+      />
+    </div>
+
+    <div class="about__text">
+      <p>
+        I am a senior mathematics student pursuing a career in actuarial science. My interest in actuarial work developed
+        through my passion for mathematics combined with an appreciation for financial systems and long-term planning.
+        I am particularly interested in how mathematical theory can be used to model uncertainty, evaluate risk, and guide
+        sound financial decision-making.
+      </p>
+
+      <p>
+        Throughout my undergraduate studies, I have focused on developing a strong foundation in probability, interest
+        theory, and financial mathematics. My senior project explores loan repayment modeling using both discrete and
+        continuous accumulation methods while accounting for inflation and real interest rates. This project allows me to
+        bridge theoretical mathematics with real-world financial applications — an approach that reflects the core of
+        actuarial work.
+      </p>
+
+      <p>
+        Beyond academics, I value continuous improvement and intellectual growth. I am always looking for opportunities to
+        expand my understanding of financial systems, data analysis, and long-term risk modeling. My goal is to begin my actuarial career in a role where I can contribute to quantitative analysis, pricing,
+        forecasting, and strategic decision-making while continuing to grow professionally toward full credentialing.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+
+
